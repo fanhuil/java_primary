@@ -1,7 +1,5 @@
 package com.atguigu.java;
 
-import com.atguigu.java1.ImportTest;
-
 import java.util.Arrays;
 
 /*
@@ -19,10 +17,6 @@ public class AnimalTest {
         System.out.println();
         String info = Arrays.toString(new int[]{1,2,3,4});
         System.out.println(info);
-
-        ImportTest test = new ImportTest();
-        String we = test.info();
-        System.out.println(we);
     }
 }
 
